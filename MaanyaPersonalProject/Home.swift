@@ -9,32 +9,58 @@ import SwiftUI
 
 public struct Home: View {
     public var body: some View {
-        ZStack {
-            Constants.homePageBackground.ignoresSafeArea()
-            
-            VStack {
-                Text(Constants.titleText)
-                    .font(.system(size: Constants.titleTextSize,
-                                  weight: .bold))
-                    .multilineTextAlignment(.center)
+        NavigationStack {
+            ZStack {
+                Constants.homePageBackground.ignoresSafeArea()
                 
-                Spacer()
-                HStack {
-                    Constants.homePageGlobeBackground.frame(width: 190,
-                                                            height: 200).padding(.bottom, Constants.imageDifferentialSize)
+                VStack {
+                    Text(Constants.titleText)
+                        .font(.system(size: Constants.titleTextSize,
+                                      weight: .bold))
+                        .multilineTextAlignment(.center)
                     
-                    Constants.homePageHeartGlobeBackground.frame(width: 190,
-                                                                 height: 200).padding(.top, Constants.imageDifferentialSize)
+                    Spacer()
+                    HStack {
+                        Constants.homePageGlobeBackground.frame(width: 190,
+                                                                height: 200).padding(.bottom, Constants.imageDifferentialSize)
+                        
+                        Constants.homePageHeartGlobeBackground.frame(width: 190,
+                                                                     height: 200).padding(.top, Constants.imageDifferentialSize)
+                    }
+                    Spacer()
+                                        
+                    Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
+                    Text(Constants.descriptionText)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    
+                    Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
+                        .padding(.bottom)
                 }
-                Spacer()
+            }.toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    NavigationLink {
+                        Register()
+                    } label: {
+                        VStack {
+                            Image(systemName: "arrow.forward")
+                            Text("Register")
+                                .foregroundStyle(.black)
+                        }
+                    }
+                }
                 
-                Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
-                Text(Constants.descriptionText)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                
-                Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
-                    .padding(.bottom)
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        AccountPage()
+                    } label: {
+                        VStack {
+                            Image(systemName: "person.crop.circle")
+                            Text("User Profile")
+                                .foregroundStyle(.black)
+                        }
+                    }
+                }
             }
         }
     }
@@ -42,7 +68,6 @@ public struct Home: View {
 
 
 extension Constants {
-    fileprivate static let titleTextSize:CGFloat = 36
     fileprivate static let imageDifferentialSize:CGFloat = 80.0
     
     fileprivate static let titleText = "Welcome to IB Cultural Exchange! "

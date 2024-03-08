@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		495781F22B95291800F5A322 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495781F12B95291800F5A322 /* AccountPage.swift */; };
+		4980898D2B9A5F1000ED5FF2 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980898C2B9A5F1000ED5FF2 /* QuestionModel.swift */; };
+		498089902B9A5FA800ED5FF2 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980898F2B9A5FA800ED5FF2 /* QuestionsViewModel.swift */; };
+		498089952B9ABABF00ED5FF2 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498089942B9ABABF00ED5FF2 /* QuestionViewModel.swift */; };
+		498089972B9AC9CA00ED5FF2 /* IndividualDiscussionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498089962B9AC9CA00ED5FF2 /* IndividualDiscussionView.swift */; };
+		498089992B9AD63600ED5FF2 /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498089982B9AD63600ED5FF2 /* AnswerModel.swift */; };
+		4980899B2B9AD6A100ED5FF2 /* AnswerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980899A2B9AD6A100ED5FF2 /* AnswerViewModel.swift */; };
+		499F03992B94FFFF0076A266 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F03982B94FFFE0076A266 /* QuestionView.swift */; };
+		499F039D2B950B830076A266 /* AskQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F039C2B950B830076A266 /* AskQuestion.swift */; };
+		499F03A12B950F320076A266 /* RepliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F03A02B950F320076A266 /* RepliesView.swift */; };
+		499F03A32B9516BB0076A266 /* SingleAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F03A22B9516BB0076A266 /* SingleAnswer.swift */; };
 		49EE26142B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */; };
 		49EE26162B89E4ED000834F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26152B89E4ED000834F8 /* ContentView.swift */; };
 		49EE26182B89E4EF000834F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE26172B89E4EF000834F8 /* Assets.xcassets */; };
@@ -15,13 +26,9 @@
 		49EE262F2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE262E2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.swift */; };
 		49EE26312B89E4F0000834F8 /* MaanyaPersonalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26302B89E4F0000834F8 /* MaanyaPersonalProjectUITestsLaunchTests.swift */; };
 		49EE263E2B89E59E000834F8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE263D2B89E59E000834F8 /* Home.swift */; };
-		49EE26412B89E737000834F8 /* DiscussionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26402B89E737000834F8 /* DiscussionBoard.swift */; };
-		49EE26432B89E756000834F8 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26422B89E756000834F8 /* Languages.swift */; };
-		49EE26452B89E763000834F8 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26442B89E763000834F8 /* Clothing.swift */; };
-		49EE26472B89E771000834F8 /* Festivals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26462B89E771000834F8 /* Festivals.swift */; };
-		49EE26492B89E779000834F8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26482B89E779000834F8 /* Food.swift */; };
+		49EE26412B89E737000834F8 /* DiscussionBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26402B89E737000834F8 /* DiscussionBoardView.swift */; };
 		49EE264B2B89EA2D000834F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE264A2B89EA2D000834F8 /* Constants.swift */; };
-		49EE264D2B8AF9FE000834F8 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE264C2B8AF9FE000834F8 /* AccountPage.swift */; };
+		49EE264D2B8AF9FE000834F8 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE264C2B8AF9FE000834F8 /* Register.swift */; };
 		49EE264F2B8AFEF4000834F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49EE264E2B8AFEF4000834F8 /* GoogleService-Info.plist */; };
 		49EE26532B8B0084000834F8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 49EE26522B8B0084000834F8 /* FirebaseAnalytics */; };
 		49EE26552B8B0084000834F8 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 49EE26542B8B0084000834F8 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -70,6 +77,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		495781F02B9520CB00F5A322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		495781F12B95291800F5A322 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		4980898C2B9A5F1000ED5FF2 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		4980898F2B9A5FA800ED5FF2 /* QuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		498089942B9ABABF00ED5FF2 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		498089962B9AC9CA00ED5FF2 /* IndividualDiscussionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualDiscussionView.swift; sourceTree = "<group>"; };
+		498089982B9AD63600ED5FF2 /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		4980899A2B9AD6A100ED5FF2 /* AnswerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewModel.swift; sourceTree = "<group>"; };
+		499F03982B94FFFE0076A266 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		499F039C2B950B830076A266 /* AskQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestion.swift; sourceTree = "<group>"; };
+		499F03A02B950F320076A266 /* RepliesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepliesView.swift; sourceTree = "<group>"; };
+		499F03A22B9516BB0076A266 /* SingleAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnswer.swift; sourceTree = "<group>"; };
 		49EE26102B89E4ED000834F8 /* MaanyaPersonalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaanyaPersonalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectApp.swift; sourceTree = "<group>"; };
 		49EE26152B89E4ED000834F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,13 +100,9 @@
 		49EE262E2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectUITests.swift; sourceTree = "<group>"; };
 		49EE26302B89E4F0000834F8 /* MaanyaPersonalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49EE263D2B89E59E000834F8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		49EE26402B89E737000834F8 /* DiscussionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionBoard.swift; sourceTree = "<group>"; };
-		49EE26422B89E756000834F8 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
-		49EE26442B89E763000834F8 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
-		49EE26462B89E771000834F8 /* Festivals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festivals.swift; sourceTree = "<group>"; };
-		49EE26482B89E779000834F8 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		49EE26402B89E737000834F8 /* DiscussionBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionBoardView.swift; sourceTree = "<group>"; };
 		49EE264A2B89EA2D000834F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		49EE264C2B8AF9FE000834F8 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		49EE264C2B8AF9FE000834F8 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		49EE264E2B8AFEF4000834F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +158,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4980898B2B9A5EDF00ED5FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4980898C2B9A5F1000ED5FF2 /* QuestionModel.swift */,
+				498089982B9AD63600ED5FF2 /* AnswerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4980898E2B9A5F9900ED5FF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4980898F2B9A5FA800ED5FF2 /* QuestionsViewModel.swift */,
+				498089942B9ABABF00ED5FF2 /* QuestionViewModel.swift */,
+				4980899A2B9AD6A100ED5FF2 /* AnswerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		498089912B9A5FC500ED5FF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49EE26402B89E737000834F8 /* DiscussionBoardView.swift */,
+				499F03982B94FFFE0076A266 /* QuestionView.swift */,
+				499F03A02B950F320076A266 /* RepliesView.swift */,
+				498089962B9AC9CA00ED5FF2 /* IndividualDiscussionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		49EE26072B89E4ED000834F8 = {
 			isa = PBXGroup;
 			children = (
@@ -167,18 +212,20 @@
 		49EE26122B89E4ED000834F8 /* MaanyaPersonalProject */ = {
 			isa = PBXGroup;
 			children = (
+				498089912B9A5FC500ED5FF2 /* View */,
+				4980898E2B9A5F9900ED5FF2 /* ViewModel */,
+				4980898B2B9A5EDF00ED5FF2 /* Model */,
+				495781F02B9520CB00F5A322 /* Info.plist */,
 				49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */,
+				499F03A22B9516BB0076A266 /* SingleAnswer.swift */,
 				49EE264A2B89EA2D000834F8 /* Constants.swift */,
 				49EE26152B89E4ED000834F8 /* ContentView.swift */,
 				49EE263D2B89E59E000834F8 /* Home.swift */,
-				49EE26402B89E737000834F8 /* DiscussionBoard.swift */,
-				49EE26422B89E756000834F8 /* Languages.swift */,
-				49EE26442B89E763000834F8 /* Clothing.swift */,
-				49EE26462B89E771000834F8 /* Festivals.swift */,
-				49EE26482B89E779000834F8 /* Food.swift */,
+				49EE264C2B8AF9FE000834F8 /* Register.swift */,
+				499F039C2B950B830076A266 /* AskQuestion.swift */,
+				495781F12B95291800F5A322 /* AccountPage.swift */,
 				49EE26172B89E4EF000834F8 /* Assets.xcassets */,
 				49EE26192B89E4EF000834F8 /* Preview Content */,
-				49EE264C2B8AF9FE000834F8 /* AccountPage.swift */,
 				49EE264E2B8AFEF4000834F8 /* GoogleService-Info.plist */,
 			);
 			path = MaanyaPersonalProject;
@@ -379,16 +426,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EE26472B89E771000834F8 /* Festivals.swift in Sources */,
-				49EE26412B89E737000834F8 /* DiscussionBoard.swift in Sources */,
-				49EE26452B89E763000834F8 /* Clothing.swift in Sources */,
+				499F03A12B950F320076A266 /* RepliesView.swift in Sources */,
+				49EE26412B89E737000834F8 /* DiscussionBoardView.swift in Sources */,
+				499F039D2B950B830076A266 /* AskQuestion.swift in Sources */,
+				499F03A32B9516BB0076A266 /* SingleAnswer.swift in Sources */,
 				49EE26162B89E4ED000834F8 /* ContentView.swift in Sources */,
-				49EE264D2B8AF9FE000834F8 /* AccountPage.swift in Sources */,
+				498089902B9A5FA800ED5FF2 /* QuestionsViewModel.swift in Sources */,
+				4980898D2B9A5F1000ED5FF2 /* QuestionModel.swift in Sources */,
+				49EE264D2B8AF9FE000834F8 /* Register.swift in Sources */,
 				49EE263E2B89E59E000834F8 /* Home.swift in Sources */,
-				49EE26492B89E779000834F8 /* Food.swift in Sources */,
+				499F03992B94FFFF0076A266 /* QuestionView.swift in Sources */,
 				49EE26142B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift in Sources */,
-				49EE26432B89E756000834F8 /* Languages.swift in Sources */,
 				49EE264B2B89EA2D000834F8 /* Constants.swift in Sources */,
+				498089952B9ABABF00ED5FF2 /* QuestionViewModel.swift in Sources */,
+				4980899B2B9AD6A100ED5FF2 /* AnswerViewModel.swift in Sources */,
+				498089992B9AD63600ED5FF2 /* AnswerModel.swift in Sources */,
+				498089972B9AC9CA00ED5FF2 /* IndividualDiscussionView.swift in Sources */,
+				495781F22B95291800F5A322 /* AccountPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,9 +609,9 @@
 				DEVELOPMENT_TEAM = AB6792795Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaanyaPersonalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,9 +638,9 @@
 				DEVELOPMENT_TEAM = AB6792795Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaanyaPersonalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

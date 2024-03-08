@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9EFFF31D-21DE-41F2-B386-80E55F27B48B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B098DE7-0470-44DC-B0FB-6D70484C9E38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/View/QuestionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52C1FFC0-15AD-49F6-9EAA-CB47B6EEDC1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/ViewModel/QuestionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/Clothing.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - e4891bdfa82a8aef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - 21faba318df8486f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - c7ae7748e6402ca7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - ccdcbcd46f459c2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - d2af1d35f2d7f7ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; MaanyaPersonalProject.QuestionView in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - b23a4f7c39327009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - dd6b6d50290d937"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "EDA1335F-A761-416D-958B-BBE7CD18B26E - 28d46a7e59a88712"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; MaanyaPersonalProject.QuestionView in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, Foundation.UUID, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Clothing.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Clothing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25572F48-5C00-4657-8FEF-3654FD78B93A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/Festivals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "25572F48-5C00-4657-8FEF-3654FD78B93A - 120cfd57ef29bac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Festivals.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Festivals.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "25572F48-5C00-4657-8FEF-3654FD78B93A - 50be1af2a892bd09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Festivals.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Festivals.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B45BBEC6-0792-4E07-BDAF-AC088449DA08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/Food.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B45BBEC6-0792-4E07-BDAF-AC088449DA08 - bc9fcc370bb31b6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Food.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Food.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "B45BBEC6-0792-4E07-BDAF-AC088449DA08 - 3fecf2d333ea69fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Food.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Food.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/Languages.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F - 35e1b6799b550664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Languages.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Languages.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F - 3b3a84bf3d5e9fdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, Swift.Optional&lt;MaanyaPersonalProject.QuestionView&gt;&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Languages.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Languages.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F - 4f6ac11b71ffa05c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Languages.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Languages.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F - ac0d011875e230da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MaanyaPersonalProject.QuestionViewModel) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Languages.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Languages.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "E9915BF7-3F80-47D6-A75D-AC03420E953F - 91b9cd302ba99c40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, MaanyaPersonalProject.QuestionViewModel) -&gt; MaanyaPersonalProject.QuestionView in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.underline(_: Swift.Bool, pattern: SwiftUI.Text.LineStyle.Pattern, color: Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, MaanyaPersonalProject.AskQuestion, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;(offset: Swift.Int, element: MaanyaPersonalProject.QuestionViewModel)&gt;, MaanyaPersonalProject.QuestionViewModel, MaanyaPersonalProject.QuestionView&gt;&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;)&gt; in MaanyaPersonalProject.Languages.body.getter : some"
+                  moduleName = "MaanyaPersonalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monal/Documents/MaanyaPersonalProject/MaanyaPersonalProject/Languages.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29C63F3F-B226-4DFA-B8F6-DD90F94BEF18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/ViewModel/QuestionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "addAnswer(answerViewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32C4BC4E-D99C-441D-84FB-097083ECF4DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaanyaPersonalProject/SingleAnswer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

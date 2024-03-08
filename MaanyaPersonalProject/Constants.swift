@@ -15,17 +15,6 @@ public class Constants {
     public static let clothingPageName = "Clothing"
     public static let festivalsPageName = "Festivals"
     public static let foodPageName = "Food"
+    public static let generalBackground = Image("generalBackground").resizable()
+    public static let titleTextSize:CGFloat = 36
 }
-//
-//struct WrappedToolbarView <Root> : View where Root : View {
-//    var root: () -> Root
-//
-//    var body: some View {
-//        root()
-//           .toolbar {
-//               ToolbarItem (placement: .principal) {
-//                  PersistentToolbar()
-//               }
-//           }
-//    }
-//}

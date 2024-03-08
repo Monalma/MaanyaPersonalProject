@@ -12,7 +12,10 @@ struct ContentView: View {
     init() {
         UITabBar.appearance().backgroundColor = Constants.tabViewBackgroundColor
         UITabBar.appearance().unselectedItemTintColor = Constants.unselectedTabViewColor
+        viewModel.getQuestions()
     }
+    
+    @ObservedObject var viewModel = QuestionsViewModel()
     
     var body: some View {
         
@@ -23,38 +26,39 @@ struct ContentView: View {
                           systemImage: Constants.homePageIcon)
                 }
             
-            DiscussionBoard()
+            DiscussionBoardView(viewModel: viewModel)
                 .tabItem {
                     Label(Constants.discussionBoardPageName,
                           systemImage: Constants.discussionBoardPageIcon)
                 }
             
-            Languages()
+            IndividualDiscussionView(viewModel: viewModel,
+                                 topic: Topic.Language)
                 .tabItem {
                     Label(Constants.languagesPageName,
                           systemImage: Constants.languagesPageIcon)
                 }
             
-            Clothing()
+            IndividualDiscussionView(viewModel: viewModel,
+                                 topic: Topic.Clothing)
                 .tabItem {
                     Label(Constants.clothingPageName,
                           systemImage: Constants.clothingPageIcon)
                 }
             
-            Festivals()
+            IndividualDiscussionView(viewModel: viewModel,
+                                 topic: Topic.Festivals)
                 .tabItem {
                     Label(Constants.festivalsPageName,
                           systemImage: Constants.festivalsPageIcon)
                 }
             
-            Food()
+            IndividualDiscussionView(viewModel: viewModel,
+                                 topic: Topic.Food)
                 .tabItem {
                     Label(Constants.foodPageName,
                           systemImage: Constants.foodPageIcon)
                 }
-            
-            AccountPage()
-                .tabItem { Label("Account page", systemImage: Constants.languagesPageIcon)}
         }
         .accentColor(Color(Constants.selectedTabViewColor))
 
