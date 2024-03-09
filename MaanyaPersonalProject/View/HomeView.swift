@@ -2,12 +2,15 @@
 //  Home.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 2/24/24.
+//  Created by Maanya Mahajan on 2/24/24.
 //
 
 import SwiftUI
 
 public struct Home: View {
+    
+    @EnvironmentObject var userViewModel: UserViewModel
+    
     public var body: some View {
         NavigationStack {
             ZStack {
@@ -29,12 +32,25 @@ public struct Home: View {
                     }
                     Spacer()
                                         
-                    Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(height: 2.5)
+                        .edgesIgnoringSafeArea(.horizontal)
+                        .padding(.leading)
+                        .padding(.trailing)
+
                     Text(Constants.descriptionText)
+                        .font(Font.system(size: 17))
                         .multilineTextAlignment(.center)
                         .padding()
+                        .bold()
                     
-                    Divider().background(Constants.dividerColor).frame(width: Constants.dividerWidth)
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(height: 2.5)
+                        .edgesIgnoringSafeArea(.horizontal)
+                        .padding(.leading)
+                        .padding(.trailing)
                         .padding(.bottom)
                 }
             }.toolbar {
@@ -44,20 +60,24 @@ public struct Home: View {
                     } label: {
                         VStack {
                             Image(systemName: "arrow.forward")
+                                .tint(Color.blue)
                             Text("Register")
                                 .foregroundStyle(.black)
+                                .bold()
                         }
                     }
                 }
                 
                 ToolbarItem(placement: .topBarTrailing) {
                     NavigationLink {
-                        AccountPage()
+                        UserView(userViewModel: userViewModel)
                     } label: {
                         VStack {
                             Image(systemName: "person.crop.circle")
+                                .tint(Color.blue)
                             Text("User Profile")
                                 .foregroundStyle(.black)
+                                .bold()
                         }
                     }
                 }
@@ -71,7 +91,7 @@ extension Constants {
     fileprivate static let imageDifferentialSize:CGFloat = 80.0
     
     fileprivate static let titleText = "Welcome to IB Cultural Exchange! "
-    fileprivate static let descriptionText = "Culture is an important part of every student’s life, especially in an IB background where there are a variety of different cultures. Thus, this space is dedicated to fostering a deeper understanding and appreciation of these diverse cultures among students.  Together, we can celebrate our differences and cultivate a more culturally aware and harmonious environment."
+    fileprivate static let descriptionText = "Culture is an important part of every student’s life, especially in an IB background where there are a variety of different cultures. Thus, this space is dedicated to fostering a deeper understanding and appreciation of these diverse cultures among students. Together, we can celebrate our differences and cultivate a more culturally aware and harmonious environment."
     
     fileprivate static let homePageBackground = Image("HomePageBackground").resizable()
     fileprivate static let homePageGlobeBackground = Image("HomePageGlobe").resizable()

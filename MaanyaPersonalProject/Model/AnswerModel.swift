@@ -2,7 +2,7 @@
 //  AnswerModel.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/7/24.
+//  Created by Maanya Mahajan on 3/7/24.
 //
 
 import Foundation

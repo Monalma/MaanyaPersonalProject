@@ -2,7 +2,7 @@
 //  QuestionsViewModel.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/7/24.
+//  Created by Maanya Mahajan on 3/7/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import Firebase
 public class QuestionsViewModel: ObservableObject {
     @Published private(set) var questionsViewModel = [QuestionViewModel]()
     
-    let ref = Firestore.firestore()
+    let ref = NetworkManager.ref
 
     func getQuestions() {
         ref.collection("questions").addSnapshotListener { (querySnapshot, error) in
@@ -42,13 +42,14 @@ public class QuestionsViewModel: ObservableObject {
                 let upvotes = data["upvotes"] as? Int ?? 0
                 let views = data["views"] as? Int ?? 0
                 let creator = data["creator"] as? String ?? ""
-
+                
                 return QuestionViewModel(questionModel: QuestionModel(id:id,
                                                                       topic: topicConverted,
                                                                       text: text,
                                                                       upvotes: upvotes,
                                                                       views: views,
-                                                                      creator: creator))
+                                                                      creator: UserModel(username: creator,
+                                                                                         emailAddress: creator)))
             }
         }
     }
@@ -59,7 +60,7 @@ public class QuestionsViewModel: ObservableObject {
             "text":questionViewModel.questionModel.text,
             "upvotes":questionViewModel.questionModel.upvotes,
             "views":questionViewModel.questionModel.views,
-            "creator":questionViewModel.questionModel.creator
+            "creator":questionViewModel.questionModel.creator.emailAddress
         ])
         
         self.questionsViewModel.append(questionViewModel)

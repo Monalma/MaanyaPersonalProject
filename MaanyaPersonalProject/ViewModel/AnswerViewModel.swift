@@ -2,7 +2,7 @@
 //  AnswerViewModel.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/7/24.
+//  Created by Maanya Mahajan on 3/7/24.
 //
 
 import SwiftUI
@@ -23,6 +23,5 @@ public class AnswerViewModel: ObservableObject, Identifiable {
     
     public func downVote() {
         answerModel.upvotes = max(answerModel.upvotes - 1, 0)
-//        self.ref.collection("questions").document(self.questionModel.id).updateData(["views":self.questionModel.views])
     }
 }

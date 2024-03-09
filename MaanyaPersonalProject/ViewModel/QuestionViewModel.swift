@@ -2,7 +2,7 @@
 //  QuestionViewModel.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/7/24.
+//  Created by Maanya Mahajan on 3/7/24.
 //
 
 import Firebase
@@ -26,9 +26,18 @@ public class QuestionViewModel: ObservableObject, Hashable, Identifiable {
     
     init(questionModel: QuestionModel = QuestionModel.placeholder) {
         self.questionModel = questionModel
+        updateDisplayName()
     }
     
-    let ref = Firestore.firestore()
+    public func updateDisplayName() {
+        let userViewModel = UserViewModel(userModel: questionModel.creator)
+        userViewModel.fetchUserDetails(email: questionModel.creator.emailAddress,
+                                       completionBlock: { result in
+            self.questionModel.creator = result
+        })
+    }
+    
+    let ref = NetworkManager.ref
     
     public func upvote() {
         questionModel.upvotes += 1
@@ -75,6 +84,4 @@ public class QuestionViewModel: ObservableObject, Hashable, Identifiable {
             self.ref.collection("questions").document(self.questionModel.id).updateData(["views":self.questionModel.views])
         }
     }
-    
-    
 }

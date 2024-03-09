@@ -2,7 +2,7 @@
 //  Register.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 2/25/24.
+//  Created by Maanya Mahajan on 2/25/24.
 //
 
 import Foundation
@@ -20,6 +20,14 @@ public struct Register: View {
     
     @State private var toggleCreate: Bool
     @State private var toggleLogin: Bool
+    
+    @State private var showingAlertLoginSuccess = false
+    @State private var showingAlertLoginFailure = false
+    
+    @State private var showingAlertRegisterSuccess = false
+    @State private var showingAlertRegisterFailure = false
+    
+    @EnvironmentObject var userViewModel: UserViewModel
     
     init() {
         self.usernameCreate = ""
@@ -68,15 +76,29 @@ public struct Register: View {
                     Spacer()
                     
                     Button(Constants.signUpString) {
-                        register()
+                        register(completionHandler: { error in
+                            self.showingAlertRegisterSuccess = !error
+                            self.showingAlertRegisterFailure = error
+                        })
                     }
                     .buttonStyle(.borderedProminent)
+                    .alert("Unable to register",
+                           isPresented: $showingAlertLoginFailure,
+                           actions: {
+                        
+                    })
+                    .alert("registered successful",
+                           isPresented: $showingAlertLoginSuccess,
+                           actions: {
+                        
+                    })
                 }
                 
                 Rectangle()
                     .fill(.black)
                     .frame(height: 2.0)
                     .edgesIgnoringSafeArea(.horizontal)
+                    .tint(Color.blue)
                 
                 Text("Log in")
                     .font(.system(size: Constants.titleTextSize,
@@ -85,7 +107,7 @@ public struct Register: View {
                     .underline()
                     .foregroundStyle(.blue)
                 
-                TextField("Choose a Username",
+                TextField("Enter your username",
                           text: $usernameLogin)
                 .background(.white)
                 
@@ -101,29 +123,52 @@ public struct Register: View {
                     Spacer()
                     
                     Button(Constants.noAccountString) {
-                        login()
+                        login() { error in
+                            self.showingAlertLoginSuccess = !error
+                            self.showingAlertLoginFailure = error
+                        }
                     }
                     .buttonStyle(.borderedProminent)
+                    .alert("Unable to login",
+                           isPresented: $showingAlertLoginFailure,
+                           actions: {
+                        
+                    })
+                    .alert("Login successful",
+                           isPresented: $showingAlertLoginSuccess,
+                           actions: {
+                        
+                    })
                 }
 
             }.padding()
         }
     }
     
-    func login() {
+    func login(completionHandler: @escaping (Bool) -> Void) {
         Auth.auth().signIn(withEmail: usernameLogin,
                            password: passwordLogin) { result, error in
             if error != nil {
                 print(error!.localizedDescription)
+                completionHandler(true)
+            } else {
+                userViewModel.fetchUserDetails(email: usernameLogin)
+                completionHandler(false)
             }
         }
     }
     
-    func register() {
-        Auth.auth().createUser(withEmail: usernameCreate,
+    func register(completionHandler: @escaping (Bool) -> Void) {
+        Auth.auth().createUser(withEmail: email,
                                password: passwordCreate) { result, error in
             if error != nil {
                 print(error!.localizedDescription)
+                completionHandler(true)
+            } else {
+                userViewModel.writeUserDetails(userModel: UserModel(username: usernameCreate,
+                                                                    emailAddress: email))
+                userViewModel.fetchUserDetails(email: email)
+                completionHandler(false)
             }
         }
     }

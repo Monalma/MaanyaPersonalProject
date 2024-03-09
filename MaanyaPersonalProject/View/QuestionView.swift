@@ -2,7 +2,7 @@
 //  QuestionView.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/3/24.
+//  Created by Maanya Mahajan on 3/3/24.
 //
 
 import Foundation
@@ -11,6 +11,7 @@ import SwiftUI
 public struct QuestionView: View {
     var questionViewModel: QuestionViewModel
     let backgroundColor: Background
+    @EnvironmentObject var userViewModel: UserViewModel
     
     init(questionModel: QuestionViewModel,
          backgroundColor: Background) {
@@ -19,6 +20,7 @@ public struct QuestionView: View {
     }
     
     @State private var showingPopoverAnswers = false
+    @State private var showingPopoverUser = false
     
     public var body: some View {
         ZStack {
@@ -51,13 +53,15 @@ public struct QuestionView: View {
                 
                 HStack(alignment: .bottom) {
                     Button {
-                        
-                        // TODO
+                        showingPopoverUser = true
                     } label: {
                         VStack {
                             Image(systemName: "person.crop.circle")
-                            Text("Creator")
+                            Text(questionViewModel.questionModel.creator.username)
                         }.foregroundStyle(.black)
+                    }
+                    .sheet(isPresented: $showingPopoverUser) {
+                        UserView(userViewModel: UserViewModel(userModel: questionViewModel.questionModel.creator))
                     }
                     
                     Button {
@@ -87,10 +91,6 @@ public struct QuestionView: View {
     }
 }
 
-extension Constants {
-    fileprivate static let title = "Dummy text long text dummy"
-}
-
 public enum Background: Int, CaseIterable {
     case orange
     case yellow
@@ -104,9 +104,9 @@ public enum Background: Int, CaseIterable {
         case .yellow:
             return Color.yellow
         case .indigo:
-            return Color.indigo
+            return Color(uiColor: UIColor(red: 209.0/255.0, green: 225.0/255.0, blue: 240.0/255.0, alpha: 1))
         case .purple:
-            return Color.purple
+            return Color(uiColor: UIColor(red: 224.0/255.0, green: 194.0/255.0, blue: 237.0/255.0, alpha: 1))
         }
     }
 }

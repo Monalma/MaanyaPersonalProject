@@ -2,7 +2,7 @@
 //  AskQuestion.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/3/24.
+//  Created by Maanya Mahajan on 3/3/24.
 //
 
 import Foundation
@@ -11,6 +11,7 @@ import SwiftUI
 public struct AskQuestion: View {
     private let topic: Topic
     @ObservedObject var questionsViewModel: QuestionsViewModel
+    @EnvironmentObject var userViewModel: UserViewModel
     
     init(topic: Topic,
          questionViewModel: QuestionsViewModel) {
@@ -39,7 +40,7 @@ public struct AskQuestion: View {
                     text: text,
                     upvotes: 0,
                     views: 0,
-                    creator: "Dummy creator")))
+                    creator: userViewModel.userModel)))
                 text = ""
             }
         }

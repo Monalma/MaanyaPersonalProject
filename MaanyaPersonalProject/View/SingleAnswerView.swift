@@ -2,7 +2,7 @@
 //  SingleAnswer.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/4/24.
+//  Created by Maanya Mahajan on 3/4/24.
 //
 
 import Foundation
@@ -11,6 +11,7 @@ import SwiftUI
 public struct SingleAnswer: View {
     private let backgroundColor: Background
     @ObservedObject var answerViewModel: AnswerViewModel
+    @EnvironmentObject var userViewModel: UserViewModel
     
     init(backgroundColor: Background,
          answerViewModel: AnswerViewModel) {

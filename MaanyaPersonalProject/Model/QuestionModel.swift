@@ -2,7 +2,7 @@
 //  QuestionModel.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 3/7/24.
+//  Created by Maanya Mahajan on 3/7/24.
 //
 
 import Foundation
@@ -15,7 +15,7 @@ public struct QuestionModel: Identifiable, Hashable {
     var text: String
     var upvotes: Int
     var views: Int
-    var creator: String //uid
+    var creator: UserModel
 }
 
 public enum Topic {
@@ -46,6 +46,7 @@ extension QuestionModel {
             text: "This is dummy text 2",
             upvotes: 502,
             views: 22,
-            creator: "monal.mahajan@hotmail.com2")
+            creator: UserModel(username: "dummy",
+                               emailAddress: "dummy@dummy.com"))
     }()
 }

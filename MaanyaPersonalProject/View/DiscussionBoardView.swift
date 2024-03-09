@@ -2,7 +2,7 @@
 //  DiscussionBoardView.swift
 //  MaanyaPersonalProject
 //
-//  Created by Monal Mahajan on 2/24/24.
+//  Created by Maanya Mahajan on 2/24/24.
 //
 
 import SwiftUI

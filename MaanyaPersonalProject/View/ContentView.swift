@@ -12,10 +12,11 @@ struct ContentView: View {
     init() {
         UITabBar.appearance().backgroundColor = Constants.tabViewBackgroundColor
         UITabBar.appearance().unselectedItemTintColor = Constants.unselectedTabViewColor
-        viewModel.getQuestions()
+        self.viewModel.getQuestions()
     }
     
     @ObservedObject var viewModel = QuestionsViewModel()
+    @ObservedObject var user = UserViewModel()
     
     var body: some View {
         
@@ -61,7 +62,7 @@ struct ContentView: View {
                 }
         }
         .accentColor(Color(Constants.selectedTabViewColor))
-
+        .environmentObject(user)
     }
 }
 
@@ -84,8 +85,4 @@ extension Constants {
                                                           alpha: 1)
     
     fileprivate static let unselectedTabViewColor = UIColor.black
-}
-
-#Preview {
-    ContentView()
 }
