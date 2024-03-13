@@ -17,10 +17,7 @@ public struct Register: View {
     
     @State private var usernameLogin: String
     @State private var passwordLogin: String
-    
-    @State private var toggleCreate: Bool
-    @State private var toggleLogin: Bool
-    
+        
     @State private var showingAlertLoginSuccess = false
     @State private var showingAlertLoginFailure = false
     
@@ -34,9 +31,7 @@ public struct Register: View {
         self.passwordCreate = ""
         self.passwordVerify = ""
         self.email = ""
-        self.toggleCreate = false
-        
-        self.toggleLogin = false
+
         self.usernameLogin = ""
         self.passwordLogin = ""
     }
@@ -67,11 +62,7 @@ public struct Register: View {
                 TextField("Email",
                           text: $email)
                 .background(.white)
-                
-                Toggle(isOn: $toggleCreate) {
-                    Text("Remember me")
-                }
-                
+                                
                 HStack {
                     Spacer()
                     
@@ -114,10 +105,6 @@ public struct Register: View {
                 SecureField(Constants.passwordString,
                             text: $passwordLogin)
                 .background(.white)
-                
-                Toggle(isOn: $toggleLogin) {
-                    Text("Remember me")
-                }
                 
                 HStack {
                     Spacer()

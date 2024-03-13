@@ -100,9 +100,9 @@ public enum Background: Int, CaseIterable {
     var color: Color {
         switch self {
         case .orange:
-            return Color.orange
+            return Color(uiColor: UIColor(red: 255.0/255.0, green: 168.0/255.0, blue: 0.0/255.0, alpha: 1))
         case .yellow:
-            return Color.yellow
+            return Color(uiColor: UIColor(red: 255.0/255.0, green: 216.0/255.0, blue: 58.0/255.0, alpha: 1))
         case .indigo:
             return Color(uiColor: UIColor(red: 209.0/255.0, green: 225.0/255.0, blue: 240.0/255.0, alpha: 1))
         case .purple:

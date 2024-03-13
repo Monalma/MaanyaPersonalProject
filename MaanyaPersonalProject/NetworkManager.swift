@@ -11,4 +11,3 @@ import Firebase
 public class NetworkManager {
     static let ref = Firestore.firestore()
 }
- 

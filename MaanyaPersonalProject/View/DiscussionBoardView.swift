@@ -43,7 +43,7 @@ public struct DiscussionBoardView: View {
                     LazyVGrid(columns: columns) {
                         ForEach(Array(viewModel.questionsViewModel.sorted{ $0.questionModel.upvotes > $1.questionModel.upvotes}.enumerated()), id: \.element.id) { index, question in
                             QuestionView(questionModel: question,
-                                         backgroundColor: index % 2 == 0 ? .indigo : .purple)
+                                         backgroundColor: index % 2 == 0 ? .orange : .yellow)
                         }
                     }
                 }

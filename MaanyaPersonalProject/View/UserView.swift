@@ -37,9 +37,9 @@ public struct UserView: View {
                 
                 ScrollView {
                     LazyVGrid(columns: columns) {
-                        ForEach(Array(questionsViewModel.questionsViewModel.filter{$0.questionModel.creator.emailAddress == userViewModel.userModel.emailAddress}.enumerated()), id: \.element.id) { index, question in
+                        ForEach(Array(questionsViewModel.questionsViewModel.filter{ $0.questionModel.creator.emailAddress == userViewModel.userModel.emailAddress}.enumerated() ), id: \.element.id) { index, question in
                             QuestionView(questionModel: question,
-                                         backgroundColor: index % 2 == 0 ? .indigo : .purple)
+                                         backgroundColor: index % 2 == 0 ? .orange : .yellow)
                         }
                     }
                 }
