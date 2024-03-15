@@ -46,7 +46,7 @@ public struct DiscussionBoardView: View {
                                          backgroundColor: index % 2 == 0 ? .orange : .yellow)
                         }
                     }
-                }
+                }.padding(.bottom)
             }
         }
     }

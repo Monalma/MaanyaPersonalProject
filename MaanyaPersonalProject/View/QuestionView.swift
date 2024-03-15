@@ -57,7 +57,7 @@ public struct QuestionView: View {
                     } label: {
                         VStack {
                             Image(systemName: "person.crop.circle")
-                            Text(questionViewModel.questionModel.creator.username)
+                            Text("User")
                         }.foregroundStyle(.black)
                     }
                     .sheet(isPresented: $showingPopoverUser) {

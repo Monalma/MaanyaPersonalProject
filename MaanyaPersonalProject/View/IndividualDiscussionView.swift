@@ -45,9 +45,27 @@ public struct IndividualDiscussionView: View {
                     }
                 }
                 
-                HStack {
-                    Image("People").resizable().frame(width: 200, height: 150)
-                    Image("Person").resizable().frame(width: 150, height: 150)
+                switch topic {
+                case .Language:
+                    HStack {
+                        Image("language1").resizable().frame(width: 200, height: 150)
+                        Image("language2").resizable().frame(width: 150, height: 150)
+                    }
+                case .Clothing:
+                    HStack {
+                        Image("People").resizable().frame(width: 200, height: 150)
+                        Image("Person").resizable().frame(width: 150, height: 150)
+                    }
+                case .Festivals:
+                    HStack {
+                        Image("festival1").resizable().frame(width: 200, height: 150)
+                        Image("festival2").resizable().frame(width: 150, height: 150)
+                    }
+                case .Food:
+                    HStack {
+                        Image("food1").resizable().frame(width: 200, height: 150)
+                        Image("food2").resizable().frame(width: 150, height: 150)
+                    }
                 }
             }
             
