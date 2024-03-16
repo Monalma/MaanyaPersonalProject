@@ -21,7 +21,7 @@
 		499F039D2B950B830076A266 /* AskQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F039C2B950B830076A266 /* AskQuestionView.swift */; };
 		499F03A12B950F320076A266 /* RepliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F03A02B950F320076A266 /* RepliesView.swift */; };
 		499F03A32B9516BB0076A266 /* SingleAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F03A22B9516BB0076A266 /* SingleAnswerView.swift */; };
-		49EE26142B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */; };
+		49EE26142B89E4ED000834F8 /* ePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26132B89E4ED000834F8 /* ePortfolioApp.swift */; };
 		49EE26162B89E4ED000834F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE26152B89E4ED000834F8 /* ContentView.swift */; };
 		49EE26182B89E4EF000834F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE26172B89E4EF000834F8 /* Assets.xcassets */; };
 		49EE261B2B89E4EF000834F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE261A2B89E4EF000834F8 /* Preview Assets.xcassets */; };
@@ -95,14 +95,14 @@
 		499F039C2B950B830076A266 /* AskQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionView.swift; sourceTree = "<group>"; };
 		499F03A02B950F320076A266 /* RepliesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepliesView.swift; sourceTree = "<group>"; };
 		499F03A22B9516BB0076A266 /* SingleAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnswerView.swift; sourceTree = "<group>"; };
-		49EE26102B89E4ED000834F8 /* MaanyaPersonalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaanyaPersonalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectApp.swift; sourceTree = "<group>"; };
+		49EE26102B89E4ED000834F8 /* ePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EE26132B89E4ED000834F8 /* ePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePortfolioApp.swift; sourceTree = "<group>"; };
 		49EE26152B89E4ED000834F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49EE26172B89E4EF000834F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49EE261A2B89E4EF000834F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		49EE26202B89E4F0000834F8 /* MaanyaPersonalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaanyaPersonalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EE26202B89E4F0000834F8 /* ePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EE26242B89E4F0000834F8 /* MaanyaPersonalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectTests.swift; sourceTree = "<group>"; };
-		49EE262A2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaanyaPersonalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EE262A2B89E4F0000834F8 /* ePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EE262E2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectUITests.swift; sourceTree = "<group>"; };
 		49EE26302B89E4F0000834F8 /* MaanyaPersonalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaanyaPersonalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49EE263D2B89E59E000834F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -205,9 +205,9 @@
 		49EE26072B89E4ED000834F8 = {
 			isa = PBXGroup;
 			children = (
-				49EE26122B89E4ED000834F8 /* MaanyaPersonalProject */,
-				49EE26232B89E4F0000834F8 /* MaanyaPersonalProjectTests */,
-				49EE262D2B89E4F0000834F8 /* MaanyaPersonalProjectUITests */,
+				49EE26122B89E4ED000834F8 /* ePortfolio */,
+				49EE26232B89E4F0000834F8 /* ePortfolioTests */,
+				49EE262D2B89E4F0000834F8 /* ePortfolioUITests */,
 				49EE26112B89E4ED000834F8 /* Products */,
 				49EE26512B8B0084000834F8 /* Frameworks */,
 			);
@@ -216,14 +216,14 @@
 		49EE26112B89E4ED000834F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49EE26102B89E4ED000834F8 /* MaanyaPersonalProject.app */,
-				49EE26202B89E4F0000834F8 /* MaanyaPersonalProjectTests.xctest */,
-				49EE262A2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.xctest */,
+				49EE26102B89E4ED000834F8 /* ePortfolio.app */,
+				49EE26202B89E4F0000834F8 /* ePortfolioTests.xctest */,
+				49EE262A2B89E4F0000834F8 /* ePortfolioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49EE26122B89E4ED000834F8 /* MaanyaPersonalProject */ = {
+		49EE26122B89E4ED000834F8 /* ePortfolio */ = {
 			isa = PBXGroup;
 			children = (
 				4968E0862B9C1AB500A845B8 /* NetworkManager.swift */,
@@ -232,12 +232,12 @@
 				4980898E2B9A5F9900ED5FF2 /* ViewModel */,
 				4980898B2B9A5EDF00ED5FF2 /* Model */,
 				495781F02B9520CB00F5A322 /* Info.plist */,
-				49EE26132B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift */,
+				49EE26132B89E4ED000834F8 /* ePortfolioApp.swift */,
 				49EE26172B89E4EF000834F8 /* Assets.xcassets */,
 				49EE26192B89E4EF000834F8 /* Preview Content */,
 				49EE264E2B8AFEF4000834F8 /* GoogleService-Info.plist */,
 			);
-			path = MaanyaPersonalProject;
+			path = ePortfolio;
 			sourceTree = "<group>";
 		};
 		49EE26192B89E4EF000834F8 /* Preview Content */ = {
@@ -248,21 +248,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		49EE26232B89E4F0000834F8 /* MaanyaPersonalProjectTests */ = {
+		49EE26232B89E4F0000834F8 /* ePortfolioTests */ = {
 			isa = PBXGroup;
 			children = (
 				49EE26242B89E4F0000834F8 /* MaanyaPersonalProjectTests.swift */,
 			);
-			path = MaanyaPersonalProjectTests;
+			path = ePortfolioTests;
 			sourceTree = "<group>";
 		};
-		49EE262D2B89E4F0000834F8 /* MaanyaPersonalProjectUITests */ = {
+		49EE262D2B89E4F0000834F8 /* ePortfolioUITests */ = {
 			isa = PBXGroup;
 			children = (
 				49EE262E2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.swift */,
 				49EE26302B89E4F0000834F8 /* MaanyaPersonalProjectUITestsLaunchTests.swift */,
 			);
-			path = MaanyaPersonalProjectUITests;
+			path = ePortfolioUITests;
 			sourceTree = "<group>";
 		};
 		49EE26512B8B0084000834F8 /* Frameworks */ = {
@@ -275,9 +275,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49EE260F2B89E4ED000834F8 /* MaanyaPersonalProject */ = {
+		49EE260F2B89E4ED000834F8 /* ePortfolio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49EE26342B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProject" */;
+			buildConfigurationList = 49EE26342B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolio" */;
 			buildPhases = (
 				49EE260C2B89E4ED000834F8 /* Sources */,
 				49EE260D2B89E4ED000834F8 /* Frameworks */,
@@ -287,7 +287,7 @@
 			);
 			dependencies = (
 			);
-			name = MaanyaPersonalProject;
+			name = ePortfolio;
 			packageProductDependencies = (
 				49EE26522B8B0084000834F8 /* FirebaseAnalytics */,
 				49EE26542B8B0084000834F8 /* FirebaseAnalyticsOnDeviceConversion */,
@@ -318,12 +318,12 @@
 				49EE26862B8B0085000834F8 /* FirebaseStorageCombine-Community */,
 			);
 			productName = MaanyaPersonalProject;
-			productReference = 49EE26102B89E4ED000834F8 /* MaanyaPersonalProject.app */;
+			productReference = 49EE26102B89E4ED000834F8 /* ePortfolio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49EE261F2B89E4F0000834F8 /* MaanyaPersonalProjectTests */ = {
+		49EE261F2B89E4F0000834F8 /* ePortfolioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49EE26372B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProjectTests" */;
+			buildConfigurationList = 49EE26372B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolioTests" */;
 			buildPhases = (
 				49EE261C2B89E4F0000834F8 /* Sources */,
 				49EE261D2B89E4F0000834F8 /* Frameworks */,
@@ -334,14 +334,14 @@
 			dependencies = (
 				49EE26222B89E4F0000834F8 /* PBXTargetDependency */,
 			);
-			name = MaanyaPersonalProjectTests;
+			name = ePortfolioTests;
 			productName = MaanyaPersonalProjectTests;
-			productReference = 49EE26202B89E4F0000834F8 /* MaanyaPersonalProjectTests.xctest */;
+			productReference = 49EE26202B89E4F0000834F8 /* ePortfolioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		49EE26292B89E4F0000834F8 /* MaanyaPersonalProjectUITests */ = {
+		49EE26292B89E4F0000834F8 /* ePortfolioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49EE263A2B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProjectUITests" */;
+			buildConfigurationList = 49EE263A2B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolioUITests" */;
 			buildPhases = (
 				49EE26262B89E4F0000834F8 /* Sources */,
 				49EE26272B89E4F0000834F8 /* Frameworks */,
@@ -352,9 +352,9 @@
 			dependencies = (
 				49EE262C2B89E4F0000834F8 /* PBXTargetDependency */,
 			);
-			name = MaanyaPersonalProjectUITests;
+			name = ePortfolioUITests;
 			productName = MaanyaPersonalProjectUITests;
-			productReference = 49EE262A2B89E4F0000834F8 /* MaanyaPersonalProjectUITests.xctest */;
+			productReference = 49EE262A2B89E4F0000834F8 /* ePortfolioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -380,7 +380,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49EE260B2B89E4ED000834F8 /* Build configuration list for PBXProject "MaanyaPersonalProject" */;
+			buildConfigurationList = 49EE260B2B89E4ED000834F8 /* Build configuration list for PBXProject "ePortfolio" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -396,9 +396,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49EE260F2B89E4ED000834F8 /* MaanyaPersonalProject */,
-				49EE261F2B89E4F0000834F8 /* MaanyaPersonalProjectTests */,
-				49EE26292B89E4F0000834F8 /* MaanyaPersonalProjectUITests */,
+				49EE260F2B89E4ED000834F8 /* ePortfolio */,
+				49EE261F2B89E4F0000834F8 /* ePortfolioTests */,
+				49EE26292B89E4F0000834F8 /* ePortfolioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,7 +445,7 @@
 				49EE264D2B8AF9FE000834F8 /* RegisterView.swift in Sources */,
 				49EE263E2B89E59E000834F8 /* HomeView.swift in Sources */,
 				499F03992B94FFFF0076A266 /* QuestionView.swift in Sources */,
-				49EE26142B89E4ED000834F8 /* MaanyaPersonalProjectApp.swift in Sources */,
+				49EE26142B89E4ED000834F8 /* ePortfolioApp.swift in Sources */,
 				49EE264B2B89EA2D000834F8 /* Constants.swift in Sources */,
 				4968E0872B9C1AB500A845B8 /* NetworkManager.swift in Sources */,
 				498089952B9ABABF00ED5FF2 /* QuestionViewModel.swift in Sources */,
@@ -480,12 +480,12 @@
 /* Begin PBXTargetDependency section */
 		49EE26222B89E4F0000834F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49EE260F2B89E4ED000834F8 /* MaanyaPersonalProject */;
+			target = 49EE260F2B89E4ED000834F8 /* ePortfolio */;
 			targetProxy = 49EE26212B89E4F0000834F8 /* PBXContainerItemProxy */;
 		};
 		49EE262C2B89E4F0000834F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49EE260F2B89E4ED000834F8 /* MaanyaPersonalProject */;
+			target = 49EE260F2B89E4ED000834F8 /* ePortfolio */;
 			targetProxy = 49EE262B2B89E4F0000834F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,11 +617,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MaanyaPersonalProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = AB6792795Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MaanyaPersonalProject/Info.plist;
+				INFOPLIST_FILE = ePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -646,11 +646,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MaanyaPersonalProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = AB6792795Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MaanyaPersonalProject/Info.plist;
+				INFOPLIST_FILE = ePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -683,7 +683,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaanyaPersonalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaanyaPersonalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ePortfolio";
 			};
 			name = Debug;
 		};
@@ -702,7 +702,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaanyaPersonalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaanyaPersonalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ePortfolio";
 			};
 			name = Release;
 		};
@@ -743,7 +743,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49EE260B2B89E4ED000834F8 /* Build configuration list for PBXProject "MaanyaPersonalProject" */ = {
+		49EE260B2B89E4ED000834F8 /* Build configuration list for PBXProject "ePortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49EE26322B89E4F0000834F8 /* Debug */,
@@ -752,7 +752,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49EE26342B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProject" */ = {
+		49EE26342B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49EE26352B89E4F0000834F8 /* Debug */,
@@ -761,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49EE26372B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProjectTests" */ = {
+		49EE26372B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49EE26382B89E4F0000834F8 /* Debug */,
@@ -770,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49EE263A2B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "MaanyaPersonalProjectUITests" */ = {
+		49EE263A2B89E4F0000834F8 /* Build configuration list for PBXNativeTarget "ePortfolioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49EE263B2B89E4F0000834F8 /* Debug */,

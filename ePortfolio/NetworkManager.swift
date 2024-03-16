@@ -1,6 +1,6 @@
 //
 //  NetworkManager.swift
-//  MaanyaPersonalProject
+//  ePortfolio
 //
 //  Created by Maanya Mahajan on 3/8/24.
 //

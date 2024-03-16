@@ -1,6 +1,6 @@
 //
-//  MaanyaPersonalProjectApp.swift
-//  MaanyaPersonalProject
+//  ePortfolioApp.swift
+//  ePortfolio
 //
 //  Created by Maanya Mahajan on 2/24/24.
 //
@@ -17,7 +17,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct MaanyaPersonalProjectApp: App {
+struct ePortfolioApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
